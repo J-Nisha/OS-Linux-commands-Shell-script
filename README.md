@@ -42,23 +42,30 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
+![306323977-c35eee39-b77b-42f5-ae91-42caecdd52da](https://github.com/user-attachments/assets/1f97bf15-c4ab-4b5c-bfeb-280ad9249eeb)
 
 
 
 cat < file2
 ## OUTPUT
+![306324035-682bbd9a-6678-4624-b5f7-6daaf396807c](https://github.com/user-attachments/assets/207892c9-441e-477e-8053-4a1da3533718)
+
 
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
+
  
 comm file1 file2
  ## OUTPUT
+![306323621-8640faa3-8194-4ee4-a16c-dd365e6905ec](https://github.com/user-attachments/assets/2b36f241-440d-4dbb-89e2-d70c92f637a0)
 
  
 diff file1 file2
 ## OUTPUT
+![306323426-59e72bbd-0260-45a8-b1a4-1b685695971c](https://github.com/user-attachments/assets/0c6e83ff-8797-4763-8a3c-023dcfbf7e38)
+
 
 
 #Filters
@@ -82,17 +89,22 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
+![306324216-2464b3f4-6b08-41be-aa67-e117fd96dfc1](https://github.com/user-attachments/assets/078f184c-56ad-48b5-95f0-1d985390ec31)
+
 
 
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+![306324281-86de4428-9ee0-485d-9696-cbac521429a0](https://github.com/user-attachments/assets/4cd60c1f-a31c-4a60-81ec-dcb3580c630e)
+
 
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![306324345-68a6922d-20c0-4af8-921a-d7a14af1d483](https://github.com/user-attachments/assets/50d4f7f9-7808-49fe-a49d-40b9fead1b47)
 
 
 cat < newfile 
@@ -107,22 +119,29 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
+![306324464-5225be44-5ded-479f-81c0-1b08a43a3db2](https://github.com/user-attachments/assets/26c2d241-3a9b-46d1-8c51-10e287eb9fb1)
+
 
 
 
 grep hello newfile 
 ## OUTPUT
+![306324533-78ef312e-f2f6-4d3d-a656-eb5f93641a61](https://github.com/user-attachments/assets/504606a1-f20b-4e8f-812b-5829efb9f647)
+
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![306324701-2e1628ca-d122-4a5c-8616-8c6c318f224b](https://github.com/user-attachments/assets/23f510e8-b27d-47d2-a437-03c6a04671ca)
+
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
+
 
 
 
